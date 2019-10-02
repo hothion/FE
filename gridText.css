@@ -1,0 +1,65 @@
+	.Header1 { 
+		grid-area:Header;
+		background-color:coral;
+		height:80px;
+		text-align: center;
+	}
+	
+	.top1 { 
+		grid-area:tops; 
+		background-color:orange;
+		height: 80px;
+		text-align: center;
+
+	}
+	.navigation1 { grid-area:navigation; 
+		background-color: blue;	
+		height: 80px;
+		text-align: center;
+	}
+	.menu1 { 
+		grid-area:menu;
+		background-color: green;
+		height: 80px;
+		text-align: left;
+	}
+	.content1{ 
+		grid-area:contentss;
+		background-color:brown;
+		height:80px;
+		text-align: left;
+
+	}
+	.about1{ 
+		grid-area: about;
+		background-color:pink;
+		height:80px;
+		text-align: center;
+	}
+	.bot1{ 
+		grid-area: bot;
+		background-color:yellow;
+		height:80px;
+		text-align: center;
+
+	}
+
+	.Footer1{ 
+		grid-area:Footer;
+		background-color: orange;
+		height: 80px;
+		text-align: center;
+
+	}
+	.container{
+		display:grid;
+		grid-template-areas:
+			'Header Header Header'
+			'tops tops tops'
+			'navigation navigation navigation'
+			'menu contentss contentss'
+			'about about about'
+			'bot bot bot '
+			'Footer Footer Footer';	
+	}
+
